@@ -1,0 +1,45 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../img/boto.png);
+  background-size: cover;
+  background-position: right top;
+  display: flex;
+  flex-direction: column;
+}
+
+.subtitulo {
+  color: rgba(0, 0, 0, 0);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #ffffff;
+  -webkit-text-fill-color: #00000000;
+  font-size: 50px;
+  font-family: "Roboto", sans-serif;
+}
+
+.titulo {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #ffffff;
+  -webkit-text-fill-color: #00000000;
+  font-size: 80px;
+  font-family: "Roboto", sans-serif;
+}
+
+.lenda {
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  color: #e50914;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}
+
+.texto {
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  font-style: italic;
+}
+
+.informaçoes {
+  color: #ffffff;
+}
