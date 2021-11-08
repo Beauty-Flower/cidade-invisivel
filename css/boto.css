@@ -15,14 +15,18 @@ body {
   -webkit-text-fill-color: #00000000;
   font-size: 50px;
   font-family: "Roboto", sans-serif;
+  padding-left: 320px;
+  padding-top: 5px;
 }
 
 .titulo {
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #ffffff;
   -webkit-text-fill-color: #00000000;
-  font-size: 80px;
+  font-size: 55px;
   font-family: "Roboto", sans-serif;
+  padding-left: 15px;
+  padding-top: 3px;
 }
 
 .lenda {
@@ -31,15 +35,35 @@ body {
   color: #e50914;
   writing-mode: vertical-rl;
   transform: rotate(180deg);
+  position: absolute;
 }
 
 .texto {
   color: #ffffff;
   font-family: "Open Sans", sans-serif;
-  font-size: 30px;
+  font-size: 1.4rem;
   font-style: italic;
+  font-weight:100;
+  padding-left: 40px;
+  width: 730px;
 }
 
 .informaçoes {
   color: #ffffff;
+}
+
+.informaçoes {
+  margin-top: 50px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  font-style: italic;
+}
+
+.relacao {
+  display: flex;
+  justify-content: space-between;
+  font-style: italic;
 }
