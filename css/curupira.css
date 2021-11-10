@@ -1,39 +1,60 @@
 body {
-    width: 100vw;
-    height: 100vh;
-    background-image: url(../img/curupira.png);
-    background-size: cover;
-    background-position: right top;
-    display: flex;
-    flex-direction: column;
-  }
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../img/curupira.png);
+  background-size: cover;
+  background-position: right top;
+  display: flex;
+  flex-direction: column;
+}
 
-  .titulo {
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #ffffff;
-    -webkit-text-fill-color: #00000000;
-    font-size: 55px;
-    font-family: "Roboto", sans-serif;
-    padding-left: 30px;
-    padding-top: 3px;
-  }
+.titulo {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #ffffff;
+  -webkit-text-fill-color: #00000000;
+  font-size: 90px;
+  font-family: "Roboto", sans-serif;
+  padding-left: 110px;
+  padding-top: 100px;
+}
 
-  .lenda {
-    font-family: "Open Sans", sans-serif;
-    font-style: italic;
-    color: #e50914;
-    writing-mode: vertical-rl;
-    transform: rotate(180deg);
-    position: absolute;
-  }
-  
-  .texto {
-    color: #ffffff;
-    font-family: "Open Sans", sans-serif;
-    font-size: 1.4rem;
-    font-style: italic;
-    font-weight:100;
-    padding-left: 40px;
-    width: 730px;
-  }
+.lenda {
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  color: #e50914;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  position: absolute;
+  padding-bottom: 350px;
+  margin-left: 80px;
+}
 
+.texto {
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4rem;
+  font-style: italic;
+  font-weight: 100;
+  padding-left: 170px;
+  width: 450px;
+}
+
+.informaçoes {
+  color: #ffffff;
+}
+
+.informaçoes {
+  margin-top: 45px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  font-style: italic;
+}
+
+.relacao {
+  display: flex;
+  justify-content: space-between;
+  font-style: italic;
+}
