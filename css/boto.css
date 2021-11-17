@@ -50,22 +50,9 @@ body {
   width: 550px;
 }
 
-.informaçoes {
-  color: #ffffff;
-}
-
-.informaçoes {
-  margin-top: 45px;
-}
-
 .info {
-  display: flex;
-  justify-content: space-between;
-  font-style: italic;
-}
-
-.relacao {
-  display: flex;
-  justify-content: space-between;
+  padding-top: 45px;
+  padding-left: 170px;
+  color: #ffffff;
   font-style: italic;
 }
