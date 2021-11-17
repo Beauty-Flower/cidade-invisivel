@@ -10,55 +10,54 @@ body {
 }
 
 .titulo {
-  margin-left: 570px;
+  margin-left: 415px;
   font-family: "Roboto", sans-serif;
-  color: #e50914;
+  color: #FFFF;
   font-size: 105px;
-  font-style: normal;
-  margin-top: 100px;
+  font-style: bold;
+  margin-top: 15px;
 }
 
 .p1 {
   font-family: "Roboto", sans-serif;
   color: white;
-  font-size: 32px;
-  width: 800px;
-  margin-top: 50px;
+  font-size: 25px;
+  width: 1140px;
+  margin-top: 20px;
   margin-left: 90px;
-}
-
-.p4 {
-  font-family: "Roboto", sans-serif;
-  color: white;
-  font-size: 32px;
-  width: 350px;
-  float: right;
 }
 
 .p2 {
   font-family: "Roboto", sans-serif;
   color: white;
-  font-size: 32px;
+  font-size: 25px;
   width: 900px;
-  margin-top: 50px;
+  margin-top: 20px;
   margin-left: 90px;
 }
 
 .p3 {
   font-family: "Roboto", sans-serif;
   color: white;
-  font-size: 32px;
+  font-size: 25px;
   width: 900px;
-  margin-top: 50px;
+  margin-top: 20px;
+  margin-left: 90px;
+}
+
+.p4 {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-size: 25px;
+  width: 700px;
+  margin-top: 20px;
   margin-left: 90px;
 }
 
 .git {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 150px;
-  height: 130px;
+  height: 125px;
   background-image: url(../img/git.png);
   transition: all 0.5s;
+  margin-left: 70px;
 }
